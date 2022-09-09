@@ -1,0 +1,14 @@
+.pai {
+  max-width: 100%;
+  height: 700px;
+  background: lightcoral;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.filho {
+  background: rgb(43, 229, 220);
+  flex-grow: 1;
+  /*  flex-basis: 200px; */
+}

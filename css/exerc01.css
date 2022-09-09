@@ -1,0 +1,30 @@
+body {
+  background: url("/imagens/bgarvore.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: top center;
+}
+h1 {
+  color: blue;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+hr {
+  width: 60%;
+  margin: 0 auto;
+  height: 15px;
+  background: green;
+}
+.fotovideo {
+  width: 60%;
+  margin: 0 auto;
+  size: 60%;
+  display: block;
+}
+p {
+  text-align: center;
+  color: blue;
+  font-size: 40px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
