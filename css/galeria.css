@@ -1,6 +1,6 @@
 @font-face {
   font-family: "another";
-  src: url(/arquivos/another.otf);
+  src: url(/font/another.otf);
 }
 * {
   margin: 0;
@@ -14,7 +14,7 @@ body {
 }
 h1 {
   font-size: 3.75rem;
-  font-family: "another";
+  font-family: another;
   text-align: center;
 }
 .polaroid img {
