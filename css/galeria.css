@@ -1,3 +1,7 @@
+@font-face {
+  font-family: "another";
+  src: url(/arquivos/another.otf);
+}
 * {
   margin: 0;
   padding: 0;
@@ -10,7 +14,7 @@ body {
 }
 h1 {
   font-size: 3.75rem;
-  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-family: "another";
   text-align: center;
 }
 .polaroid img {
