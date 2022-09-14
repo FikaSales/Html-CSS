@@ -1,0 +1,91 @@
+@import url("https://fonts.googleapis.com/css2?family=Hachi+Maru+Pop&family=Lusitana&family=Oswald:wght@200;400&display=swap");
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+body {
+  font-size: 100%;
+  color: white;
+  background: #6b2020;
+  background-attachment: fixed;
+}
+.logo {
+  font-size: 10px;
+  font-family: "Hachi Maru Pop", cursive;
+}
+.cabecalho {
+  background: #232323;
+  height: 500px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  gap: 30px;
+  align-items: flex-start;
+  padding: 20px;
+}
+a {
+  padding: 10px;
+  color: #fff;
+  font-family: "Hachi Maru Pop", cursive;
+}
+h1 {
+  display: grid;
+}
+
+button {
+  color: #fff;
+  background: #6b2020;
+  font-size: 15px;
+  font-family: "Hachi Maru Pop", cursive;
+  padding: 3px 8px;
+  border-radius: 14px;
+  border: none;
+  border: 3px solid #6b2020;
+}
+button:hover {
+  background: rgb(228, 51, 51);
+  /*color: #6b2020; */
+  /* border: 3px solid lightblue; */
+}
+.doador {
+  color: #fff;
+  background: #000;
+  font-size: 48px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  padding: 3px 8px 3px 15px;
+  border-radius: 14px;
+  border: 3px solid #6b2020;
+  width: 315px;
+  height: 80px;
+}
+.doador:hover {
+  background: rgb(228, 51, 51);
+}
+.body {
+  display: grid;
+  justify-content: start;
+  grid-template-columns: 700px;
+  grid-template-rows: 300px;
+  padding: 150px;
+}
+.sejadoador {
+  font-size: 80px;
+  font-family: "Oswald";
+}
+p {
+  font-family: "Lusitana";
+  font-size: 40px;
+}
+#titulo2 {
+  position: absolute;
+  font-family: "Lusitana";
+  font-size: 64px;
+  width: 444px;
+  height: 249px;
+  left: 300px;
+  top: 200px;
+}
+/* teste para push */
