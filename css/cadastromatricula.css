@@ -1,0 +1,70 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+h1 {
+  color: white;
+  text-align: center;
+  padding: 10px;
+  font-weight: 800;
+  font-size: 70px;
+}
+img {
+  width: 100%;
+  height: 100%;
+}
+body {
+  display: grid;
+  justify-content: center;
+  grid-template-rows: 20% 90%;
+  padding: 10px;
+  width: 100%;
+  height: 100%;
+  background: url(/imagens/curso.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+.box {
+  display: flex;
+  width: 100%;
+  padding: 30px;
+  background: rgba(0, 0, 0, 0.6);
+  border-radius: 15px;
+  color: white;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.box form select,
+input {
+  padding: 3px;
+  border: none;
+  border-radius: 3px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.box input:focus {
+  padding: 3px;
+  border: none;
+  border-radius: 3px;
+  background: lightcyan;
+}
+
+.box form input[type="submit"] {
+  padding: 5px;
+  font-size: 15px;
+  font-weight: 600;
+  border: none;
+  border-radius: 3px;
+  background: white;
+}
+.box form input[type="submit"]:hover {
+  padding: 5px;
+  font-size: 15px;
+  font-weight: 600;
+  border: none;
+  border-radius: 3px;
+  background: rgba(255, 0, 0, 0.626);
+  color: white;
+}
