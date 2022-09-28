@@ -1,55 +1,73 @@
-@import url("https://fonts.googleapis.com/css2?family=Hachi+Maru+Pop&family=Lusitana&family=Oswald:wght@200;400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Libre+Caslon+Text&family=Lusitana&family=Nunito:wght@300;400&display=swap");
 * {
   margin: 0%;
   padding: 0%;
   box-sizing: border-box;
-  text-decoration: none;
+  border: 0;
+  font-family: "Nunito", sans-serif;
+  color: #ce6b6b;
 }
-body {
-  font-size: 100%;
-  color: white;
-  background: #6b2020;
-  background-attachment: fixed;
-}
+/* Estilo do Topo */
 .logo {
-  font-size: 10px;
-  font-family: "Hachi Maru Pop", cursive;
+  font-size: 20px;
+  font-family: "Nunito", sans-serif;
+  color: white;
 }
 .cabecalho {
-  background: #232323;
-  height: 500px;
+  background: #ce6b6b;
   display: flex;
-  flex-direction: row;
-  justify-content: flex-start;
-  gap: 30px;
-  align-items: flex-start;
-  padding: 20px;
+  padding: 30px;
+  /* z-index: 1; */
+}
+h2 {
+  color: white;
+  font-family: "Libre Caslon Text", serif;
+  font-size: 20px;
+  font-weight: 400;
 }
 a {
   padding: 10px;
   color: #fff;
-  font-family: "Hachi Maru Pop", cursive;
+  font-family: "Lusitana", sans-serif;
+  font-weight: 400;
+  font-size: 25px;
 }
-h1 {
-  display: grid;
-}
-
-button {
-  color: #fff;
-  background: #6b2020;
-  font-size: 15px;
-  font-family: "Hachi Maru Pop", cursive;
+.login {
+  background: white;
+  font-weight: 500;
+  font-size: 18px;
   padding: 3px 8px;
   border-radius: 14px;
   border: none;
-  border: 3px solid #6b2020;
 }
-button:hover {
-  background: rgb(228, 51, 51);
-  /*color: #6b2020; */
-  /* border: 3px solid lightblue; */
+/* Estilo do Body */
+.body {
+  display: grid;
+  justify-content: start;
+  grid-template-columns: 700px;
+  grid-template-rows: 300px;
+  padding: 150px;
 }
-.doador {
+.coracao {
+  width: 100%;
+}
+main {
+  font-size: 100%;
+  background: white;
+}
+
+.titulo2 {
+  position: absolute;
+  width: 424px;
+  height: 266px;
+  left: 546px;
+  top: 236px;
+  text-align: center;
+  font-weight: 700;
+  font-size: 60px;
+}
+
+.button {
   color: #fff;
   background: #000;
   font-size: 48px;
@@ -61,31 +79,15 @@ button:hover {
   width: 315px;
   height: 80px;
 }
-.doador:hover {
-  background: rgb(228, 51, 51);
-}
-.body {
-  display: grid;
-  justify-content: start;
-  grid-template-columns: 700px;
-  grid-template-rows: 300px;
-  padding: 150px;
-}
-.sejadoador {
-  font-size: 80px;
-  font-family: "Oswald";
-}
+
 p {
   font-family: "Lusitana";
   font-size: 40px;
 }
-#titulo2 {
-  position: absolute;
-  font-family: "Lusitana";
-  font-size: 64px;
-  width: 444px;
-  height: 249px;
-  left: 300px;
-  top: 200px;
+/* Estilo do Footer */
+/* Pseudo Classes */
+.button:hover {
+  background: #ce6b6b;
+  border: none;
 }
 /* teste para push */
