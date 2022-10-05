@@ -49,24 +49,23 @@ a {
   font-size: 70px;
   color: white;
 }
-
 /* Estilo do Body */
+
+.containner {
+  max-width: 100%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  /* margin: 200px; */
+  padding: 50px;
+  gap: 10px;
+  text-align: center;
+}
 .box {
-  display: grid;
-  grid-template-columns: 800px;
-  grid-template-rows: 200px;
-  row-gap: 50px;
-  padding: 150px;
+  background: rgba(200, 200, 200, 0.3);
+  border-radius: 20px;
+  padding: 100px;
 }
-.box2,
-.box3,
-.box4 {
-  /* text-indent: 50px;   */
-  display: grid;
-  grid-template-columns: 800px;
-  padding: 150px;
-  /* grid-template-rows: 200px; */
-}
+
 h4 {
   font-weight: 400;
   font-size: 80px;
@@ -113,6 +112,10 @@ ul {
 }
 
 /* Estilo do Footer */
+footer {
+  background: #ce6b6b;
+  color: white;
+}
 
 /* Pseudo Classes */
 .login:hover {
